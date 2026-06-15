@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magazine Afrique — Accueil</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand-mini">AFRIQUE · ACTUS · ANALYSES</div>
+      <div class="top-actions">
+        <a href="#">S'abonner</a>
+        <a href="#">Connexion</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <div>
+          <div class="logo-title">JEUNE</div>
+          <div class="logo-sub">MAGAZINE</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="nav-link is-active" href="#">Accueil</a>
+        <a class="nav-link" href="#">Politique</a>
+        <a class="nav-link" href="#">Économie</a>
+        <a class="nav-link" href="#">Culture</a>
+        <a class="nav-link" href="#">Diaspora</a>
+        <a class="nav-link" href="#">Sports</a>
+      </nav>
+
+      <div class="search">
+        <input type="search" placeholder="Rechercher…" />
+        <button>🔍</button>
+      </div>
+
+      <button class="burger" aria-label="Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="hero-main">
+          <div class="hero-badge">Dossier</div>
+          <h1>Afrique : les tendances qui changent l’économie</h1>
+          <p class="meta">Par Rédaction · 5 min de lecture · 12 juin</p>
+
+          <p class="hero-text">
+            L’investissement, l’innovation et les nouvelles chaînes de valeur
+            redessinent le paysage économique du continent.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#">Lire l’article</a>
+            <a class="btn btn-ghost" href="#">Voir le dossier</a>
+          </div>
+        </article>
+
+        <aside class="hero-side">
+          <h2>À la une</h2>
+          <div class="side-list">
+            <a class="side-item" href="#">
+              <span class="pill">Politique</span>
+              <span class="side-title">Sommet régional : nouveaux accords en vue</span>
+            </a>
+            <a class="side-item" href="#">
+              <span class="pill">Économie</span>
+              <span class="side-title">Inflation : quelles solutions locales ?</span>
+            </a>
+            <a class="side-item" href="#">
+              <span class="pill">Culture</span>
+              <span class="side-title">Cinéma africain : la nouvelle vague</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Derniers articles</h2>
+          <div class="filters">
+            <button class="chip is-active">Tout</button>
+            <button class="chip">Afrique de l’Ouest</button>
+            <button class="chip">Afrique centrale</button>
+            <button class="chip">Afrique du Nord</button>
+          </div>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-img" style="background-image: linear-gradient(135deg,#0b3d91,#0bbcff);"></div>
+            <div class="card-body">
+              <div class="card-top">
+                <span class="pill">Économie</span>
+                <span class="time">9 min</span>
+              </div>
+              <h3>Banques : vers une transformation numérique</h3>
+              <p>Des innovations fintech pour rapprocher services et populations.</p>
+              <a class="card-link" href="#">Lire →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img" style="background-image: linear-gradient(135deg,#111827,#8b5cf6);"></div>
+            <div class="card-body">
+              <div class="card-top">
+                <span class="pill">Politique</span>
+                <span class="time">7 min</span>
+              </div>
+              <h3>Gouvernance : les réformes à suivre</h3>
+              <p>Quelles politiques produisent des résultats mesurables ?</p>
+              <a class="card-link" href="#">Lire →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img" style="background-image: linear-gradient(135deg,#0f766e,#34d399);"></div>
+            <div class="card-body">
+              <div class="card-top">
+                <span class="pill">Culture</span>
+                <span class="time">6 min</span>
+              </div>
+              <h3>Littérature : des voix qui s’affirment</h3>
+              <p>Éditeurs, festivals et nouvelles tendances éditoriales.</p>
+              <a class="card-link" href="#">Lire →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img" style="background-image: linear-gradient(135deg,#b91c1c,#f59e0b);"></div>
+            <div class="card-body">
+              <div class="card-top">
+                <span class="pill">Sports</span>
+                <span class="time">8 min</span>
+              </div>
+              <h3>Coupe : les favoris et les outsiders</h3>
+              <p>Analyse des équipes et clés de la compétition.</p>
+              <a class="card-link" href="#">Lire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container news-grid">
+        <div class="news-left">
+          <h2>Recevez les analyses</h2>
+          <p>
+            Une sélection chaque semaine : économie, politique et culture.
+          </p>
+        </div>
+        <form class="news-form">
+          <input type="email" placeholder="Votre email" required />
+          <button type="submit" class="btn btn-primary">S’inscrire</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Magazine Afrique</h3>
+        <p class="muted">
+          Démo front-end (HTML/CSS) inspirée d’un layout magazine.
+        </p>
+      </div>
+      <div>
+        <h3>Rubriques</h3>
+        <div class="footer-links">
+          <a href="#">Politique</a>
+          <a href="#">Économie</a>
+          <a href="#">Culture</a>
+          <a href="#">Sports</a>
+        </div>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <div class="footer-links">
+          <a href="#">contact@exemple.com</a>
+          <a href="#">À propos</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © <span id="year"></span> — Tous droits réservés.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
